@@ -1,0 +1,95 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "10635a8e-fb28-44bf-9358-6bbb84ec7bb5",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import Module1\n",
+    "Module1.calText('good')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "324463cb-1f76-4818-808d-aaa0ed89ccd3",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import Module1\n",
+    "import numpy as np\n",
+    "y = [1,9,5,4]\n",
+    "print (Module1.calAvg(y))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "65d820f1-b3e5-4235-b3a2-09969942b873",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Pls input value: 5\n",
+      "Pls input value: 6\n",
+      "Pls input value: 2\n",
+      "Pls input value: 1\n",
+      "Pls input value: 5\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "3.8\n",
+      "19\n"
+     ]
+    }
+   ],
+   "source": [
+    "import Module1\n",
+    "import numpy as np\n",
+    "n=5\n",
+    "m =[]\n",
+    "for a in range (0,n):\n",
+    "    x = int(input ('Pls input value:'))\n",
+    "    m.append(x) #append คือใส่ค่าเข้าไปใน lis จากตัวอย่างจะเอาค่าเข้าไปใส่ในค่า m\n",
+    "Module1.calAvg(m)\n",
+    "Module1.calSum(m)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2ddf5449-f240-4273-ab41-6fde1149289e",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
